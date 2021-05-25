@@ -70,7 +70,6 @@ def autenticar():
             session['usuario_logado'] = usuario.id
             flash('Olá ' + usuario.nome + ', você logou com sucesso!')
             proxima = request.form['proxima']
-            sessao = session['usuario_logado']
             return redirect(proxima)
         else:
             flash('Login e/ou senha incorreto(s)!')

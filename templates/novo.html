@@ -11,6 +11,10 @@
         {% endif %}
     {% endwith %}
 
+    <form action="{{ url_for('index') }}">
+        <button class="btn btn-secondary" type="submit">Voltar</button>
+      </form>
+
     <form action="{{url_for('criar')}}" method="POST">
     <fieldset>
         <div class="form-group">
@@ -28,5 +32,7 @@
         <button type="submit" class="btn btn-primary btn-salvar">Salvar</button>
     </fieldset>
     </form>
+
+    
 
 {% endblock %}
