@@ -1,6 +1,6 @@
 # Jogoteca
 
-###Primeira versão do Jogoteca
+### Primeira versão do Jogoteca
 
 - Adicionado controle de usuários (sessão)
 - Login e Logout de usuário
